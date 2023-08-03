@@ -271,7 +271,7 @@ function finalPlanPriceHandler(myProduct, finishPlanContainer, yearActive) {
           ? myProduct[0].title + " (Yearly)"
           : myProduct[0].title + " (Monthly)"
       }</h4>
-      <a href="#" onclick='changePlanHandler(event)'>Change</a>
+      <a href="#" onclick='changeButton(event)'>Change</a>
     </div>
     <span>${
       yearActive.querySelector("input").checked

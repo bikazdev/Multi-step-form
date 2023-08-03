@@ -717,13 +717,13 @@ body {
   }
 }
 
-@media (max-height: 500px) {
+@media screen and (max-height: 500px) {
   .container {
     align-items: flex-start;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .content {
     width: 70%;
     gap: 0;
