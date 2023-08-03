@@ -40,14 +40,14 @@ body {
   grid-template-columns: 1.5fr 3fr;
   border-radius: 0.7rem;
   position: relative;
-  box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .main .steps {
   position: relative;
   margin-left: 0.3rem;
   border-radius: 0.7rem;
-  background: url("./assets/images/bg-sidebar-desktop.svg");
+  background: url("../assets/images/bg-sidebar-desktop.svg");
   background-size: cover;
   background-position: center;
   margin: 1rem;
@@ -479,7 +479,6 @@ body {
 
 /* Confirm - End */
 
-
 /* Buttons - Start */
 
 .btns {
@@ -584,7 +583,7 @@ body {
     height: 12rem;
     display: flex;
     justify-content: center;
-    background: url("./assets/images/bg-sidebar-mobile.svg");
+    background: url("../assets/images/bg-sidebar-mobile.svg");
     position: absolute;
     top: 0;
     left: 0;
@@ -613,7 +612,7 @@ body {
     position: absolute;
     gap: 1rem;
     top: 6rem;
-    box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.1);
   }
 
   .content .c-header {
@@ -628,7 +627,6 @@ body {
   .content form {
     width: 100%;
     gap: 0.5rem;
-    
   }
 
   .content form .input {
@@ -642,8 +640,7 @@ body {
   }
 
   .content form .input span {
-    top: -.4rem;
-
+    top: -0.4rem;
   }
 
   .plans-container {
@@ -664,25 +661,25 @@ body {
     align-items: start;
     gap: 1rem;
   }
-  
+
   .add-ons-container {
     width: 100%;
   }
   .add-ons .add-on {
     height: auto;
     min-height: 4.5rem;
-    padding: .7rem;
+    padding: 0.7rem;
   }
 
   .add-ons .add-on h4 {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .add-ons .add-on p {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .add-ons .add-on .add-on-price {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .confirm-container p {
@@ -704,12 +701,12 @@ body {
   .btns .next {
     width: 6rem;
     height: 2.5rem;
-    border-radius: .3rem;
+    border-radius: 0.3rem;
   }
   .btns .confirm {
     width: 6rem;
     height: 2.5rem;
-    border-radius: .3rem;
+    border-radius: 0.3rem;
   }
 
   .add-ons .add-on .add-on-price {
