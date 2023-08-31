@@ -12,11 +12,12 @@
 *.xd
 
 # Avoid folder
-design/
+design/*
+!design/desktop-preview.jpg
 
 # Avoid file
 README-template.md
-README.md
+!README.md
 style-guide.md
 
 
